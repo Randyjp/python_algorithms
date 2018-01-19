@@ -8,6 +8,15 @@ class TreeNode:
         self.right = None
         self.left = None
 
+    def get_children(self):
+        if self.right and self.left:
+            return [self.left, self.right]
+        elif self.right:
+            return [self.right]
+        elif self.left:
+            return [self.left]
+        return []
+
 
 def create_binary_search(arr):
     size = len(arr)

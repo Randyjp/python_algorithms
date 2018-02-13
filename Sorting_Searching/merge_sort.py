@@ -5,7 +5,7 @@ def merge_sort(arr):
     if arr_len == 1:
         return arr
 
-    mid_point = int(arr_len / 2)
+    mid_point = arr_len // 2
     left = merge_sort(arr[0:mid_point])
     right = merge_sort(arr[mid_point:])
     return merge(left, right)

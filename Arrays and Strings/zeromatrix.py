@@ -31,4 +31,4 @@ def null_cols(matrix, number_rows, number_columns, col_zeros):
                 matrix[i][j] = 0
 
 
-print matrix_zeros([[2, 1], [3, 0], [8, 8], [6, 2]])
+print(matrix_zeros([[2, 1], [3, 0], [8, 8], [6, 2]]))

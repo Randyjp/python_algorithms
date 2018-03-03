@@ -39,6 +39,6 @@ class MaxHeap:
 
 
 # test code
-non_max_heap = [4, 1, 3, 2, 16, 9, 10, 14, 8, 7]
-max_heap = MaxHeap(non_max_heap)
-print(max_heap.heap)
+# non_max_heap = [4, 1, 3, 2, 9, 10, 14, 8, 7]
+# max_heap = MaxHeap(non_max_heap)
+# print(max_heap.heap)
